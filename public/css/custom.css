@@ -1,0 +1,445 @@
+.bodyrow{
+    background-image: url('../image/Japanese-Paper.jpg');
+    height: 100%;
+    background-size: cover;
+    line-height: 1.8;
+}
+
+.bodyrow a{
+    color: inherit;
+    text-decoration: none;
+    outline:none;
+}
+
+.topspan{
+    background-color: #181717;
+    min-height: 20px;
+}
+
+.top_sec{
+    text-align: center;
+}
+
+.nav_item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_right{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.nav_item h2{
+    border-bottom: 8px solid #171717;
+}
+
+.main_banner{
+    /* min-height: 500px;
+    max-height: 500px; */
+    background-image: url('../image/Japanese-food_dark.jpg');
+    height: 100%;
+    background-position: center; 
+    background-size: cover;
+}
+
+.req_banner{
+    background-image: url('../image/Japanese-Paper_Orange.jpg');
+    height: 100%;
+    background-position: center; 
+    background-size: cover;
+}
+
+.entry_banner{
+    background-image: url('../image/Japanese-Paper_Blue.jpg');
+    height: 100%;
+    background-position: center; 
+    background-size: cover;
+}
+
+.req_banner_span{
+    padding: 20px;
+    text-align: center;
+}
+
+.req_banner_text{
+    font-family: serif;
+    font-size: 50px;
+    color: #fff;
+}
+
+.req_space .row, .req_space, .entry_space{
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.entry_space_sp{
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.endbutton{
+    text-align: center;
+}
+
+.confirm_bt, .confirm_bt_up{
+    background-color: #e12625;
+    color: #fff!important;
+    font-size: 35px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.confirm_bt:hover, .save_bt:hover, .review_bt:hover, .back_bt:hover, .confirm_bt_up:hover, .back_bt_up:hover{
+    opacity: 0.8;
+}
+
+.save_bt, .review_bt{
+    background-color: #5f742d;
+    color: #fff!important;
+    font-size: 25px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.review_bt2{
+    background-color: #59627b;
+    color: #fff!important;
+    font-size: 25px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.back_bt, .back_bt_up{
+    background-color: #9b9c9f;
+    color: #fff!important;
+    font-size: 25px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.req_table .row{
+    padding: 0;
+}
+
+.req_topspa{
+    padding-top:15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.req_topspa_cet{
+    text-align: center;
+}
+
+.req_entry_bt{
+    background-image: url('../image/Japanese-Paper_Orange.jpg');
+    height: 100%;
+    background-position: center; 
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 25px;
+}
+
+.req_table{
+    border: 1px #a27b33 solid;
+    text-align: center;
+}
+
+.req_table_left{
+    padding: 15px 0;
+    line-height: initial;
+    color: #fff;
+    font-weight: bold;
+    background-color: #a27b33;
+}
+
+.req_table_bd{
+    font-weight: bold;
+}
+
+.req_table_bd tbody tr{
+    border-bottom: 1px #a27b33 solid;
+}
+
+.glabel{
+    color: #698151;
+}
+
+.glabel2{
+    color: #59627b;
+}
+
+.arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 30px solid #698151;
+}
+
+.arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 30px solid #698151;
+}
+
+.arrow-right2 {
+    width: 0; 
+    height: 0; 
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 30px solid #59627b;
+}
+
+.arrow-block, .arrow-block-end{
+    padding: 10px;
+    padding-left: 20px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #698151;
+    width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.arrow-block2, .arrow-block-end2{
+    padding: 10px;
+    padding-left: 20px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #59627b;
+    width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.btn-choose{
+    background-color: #59627b;
+    color: #fff;
+    margin-left:10px!important;
+}
+
+.arrow-block-end{
+    width: 100%;
+}
+
+.entry_basic_info{
+    font-weight: bold;
+}
+
+.entry_basic_info input[type='text']{
+    width: 100%;
+}
+
+.entry_basic_info .form-inline label{
+    padding-right: 20px;
+    padding-left: 0px;
+}
+
+.main_banner_span{
+    padding: 50px;
+}
+
+
+.main_banner_first{
+    color: #fff;
+    text-align: center;
+    font-family: Cormorant;
+    font-size: 36px;
+}
+
+.main_banner_second{
+    color: #fff;
+    text-align: center;
+    font-family: serif;
+    font-size: 80px;
+}
+
+.main_banner_third{
+    text-align: center;
+    padding-bottom:30px;
+}
+
+.main_banner_last{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.mid_sec{
+    background-color: #fff;
+    padding: 30px;
+}
+
+.pixdiv{
+    background-image: url('../image/pxline.png');
+    background-repeat: repeat-x;
+    min-height: 20px;
+    margin-bottom:10px;
+    width: 100%;
+}
+
+.pixdiv2{
+    background-image: url('../image/pxline2.png');
+    background-repeat: repeat-x;
+    min-height: 20px;
+    margin-bottom:10px;
+    width: 100%;
+}
+
+.pixdiv_entry{
+    background-image: url('../image/pxline_entry.png');
+    background-repeat: repeat-x;
+    min-height: 20px;
+    margin-bottom:10px;
+    width: 100%;
+}
+
+/* .phone_spdiv .col-1{
+    padding: 0;
+    text-align: right;
+    max-width: 3%;
+    float: right;
+} */
+
+.linkico, .sp_red{
+    color: #c53c40;
+}
+
+.esp_red{
+    color: #e84d47;
+}
+
+.esp_red_sp{
+    color: #e84d47;
+    font-size: 16px;
+}
+
+.mid_para{
+    padding-bottom: 30px;
+}
+
+.mid_span{
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+
+.endpage, .endpage_up{
+    text-align: center;
+}
+
+.endpage h4{
+    color: #568e5a;
+}
+
+.endpage_up h4{
+    color: #59627b;
+}
+
+.link_label{
+    /* padding-bottom: 10px; */
+    line-height: initial;
+    height:80px;
+}
+
+.link_label_sp{
+    /* padding-bottom: 10px; */
+    line-height: initial;
+    height:40px;
+}
+
+.link_label2{
+    padding: 30px;
+}
+
+.mid_para a img{
+    width: 80%;
+    padding-bottom: 10px;
+}
+
+.judges{
+    font-size: 18px;
+}
+
+.intro_text{
+    font-size: 18px;
+}
+
+.mid_para_top{
+    padding-top: 40px;
+}
+
+.footer{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #171717;
+}
+
+.footer h5{
+    color: #fff;
+    margin-right:0;
+    padding-right:0;
+    float: right;
+    text-align: center;
+}
+
+.footer_pt1{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.footer_pt2{
+    /* display: flex; */
+    font-size: 18px;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    justify-content: right;
+}
+
+.footer_pt2 label{
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+    .main_banner_third img {
+        width: 80%;
+    }
+
+    .main_banner_first{
+        font-size: 20px;
+    }
+
+    .main_banner_second{
+        font-size: 40px;
+    }
+
+    .main_banner_last{
+        font-size: 20px;
+    }
+
+    .footer_pt1 img{
+        width: 90%;
+    }
+
+    .footer_pt1, .footer_pt2{
+        justify-content: center;
+    }
+}
